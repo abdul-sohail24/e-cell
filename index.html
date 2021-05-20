@@ -1,209 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>E-cell</title>
+    <title>E-Cell</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+
+    <!--back to top-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.0.js"></script> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css"
+    />
+    <!-- <link rel="stylesheet" href="http://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css"> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <!-- Our Team -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
+
+    <!-- Testimonials -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-      crossorigin="anonymous"
-    />
+    <!-- <script src="https://code.jquery.com/jquery-3.5.0.js"></script> -->
     <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="stylesheet" href="./trail.css"> -->
     <link rel="stylesheet" href="./footer.css" />
-    <!-- <link rel="stylesheet" href="./style_js.js" /> -->
   </head>
+
   <body>
-    <nav>
-      <div class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <h1 class="logo">E-CELL</h1>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"
+    <header id="header">
+      <div id="normal-header">
+        <a
+          href="#"
+          style="
+            font-family: 'Russo One', sans-serif;
+            margin-left: 10px;
+            margin-top: -25px;
+            font-size: 48px;
+          "
+          id="e-cell_title"
+          >E-CELL</a
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" style="color: white;" href="#">HOME</a>
+
+        <nav id="nav-bar">
+          <ul>
+            <li class="nav-link" id="menu-item">
+              <a href="#nav-bar" class="menu-link"> Home </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" style="color: white;" href="#">ABOUT</a>
+            <li class="nav-link" id="menu-item">
+              <a href="#about" class="menu-link"> About </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" style="color: white;" href="#">EVENTS</a>
+            <li class="nav-link" id="menu-item">
+              <a href="#events" class="menu-link"> Events </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" style="color: white;" href="#">TEAM</a>
+            <li class="nav-link" id="menu-item">
+              <a href="#gallery" class="menu-link"> Gallery </a>
+            </li>
+            <li class="nav-link" id="menu-item">
+              <a href="#review" class="menu-link"> Reviews </a>
+            </li>
+            <li class="nav-link" id="menu-item">
+              <a href="#team" class="menu-link"> Team </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="responsive-header">
+        <div id="responsive-logo-button">
+          <a
+            href="#"
+            style="
+              font-family: 'Russo One', sans-serif;
+              margin-left: 10px;
+              margin-top: 7px;
+              font-size: 24px;
+              color: black;
+            "
+            id="e-cell_title"
+            >E-CELL</a
+          >
+          <button id="image-button-black">
+            <img
+              src="https://i.ibb.co/yfM3fdZ/dropdown-menu-black.png"
+              alt="Dropdown Menu"
+              id="dropdown-button-black"
+            />
+          </button>
+        </div>
+
+        <div id="responsive-nav-bar">
+          <ul>
+            <li class="nav-link" id="responsive-home-item">
+              <a href="#nav-bar" class="responsive-menu-link"> Home </a>
+            </li>
+            <li class="nav-link" id="responsive-features-item">
+              <a href="#about" class="responsive-menu-link"> About </a>
+            </li>
+            <li class="nav-link" id="responsive-products-item">
+              <a href="#events" class="responsive-menu-link"> Events </a>
+            </li>
+            <li class="nav-link" id="responsive-media-item">
+              <a href="#gallery" class="responsive-menu-link"> Gallery </a>
+            </li>
+            <li class="nav-link" id="responsive-pricing-item">
+              <a href="#review" class="responsive-menu-link"> Reviews </a>
+            </li>
+            <li class="nav-link" id="responsive-pricing-item">
+              <a href="#team" class="responsive-menu-link"> Team </a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-    <!-- Nav ends -->
-    <section style="margin-top: 25px;">
-      <!-- Jumbotron -->
-      <div class="jumbotron jumbotron-fluid mb-0">
-        <div class="container">
-          <div class="row justify-content-center text-center">
-            <div class="col-md-10 col-lg-6">
-              <h1 class="display-5">E-Cell</h1>
+    </header>
 
-              <p class="lead">
-                THE ENTREPRENUERSHIP CELL <br />
-                IIIT Dharwad
-              </p>
+    <!-- Hero Image, text & button -->
 
-              <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#e-cell" role="button"
-                  >&nbsp;&nbsp;Explore</a
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div id="hero-header">
+      <div id="hero-content">
+        <h3 id="hero-title" data-aos="fade-left">
+          THE ENTREPRENUERSHIP CELL <br />
+          IIIT Dharwad
+        </h3>
 
-      <!-- Carousel -->
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide mt-5 mb-3"
-        data-ride="carousel"
-      >
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="container">
-          <div class="carousel-inner">
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="https://cdn.pixabay.com/photo/2012/04/26/18/10/businessmen-42691_960_720.png"
-                data-color="firebrick"
-                alt="Second Image"
-              />
-              <div class="carousel-caption d-md-block">
-                <!-- <h5>Second Image</h5> -->
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="https://cdn.pixabay.com/photo/2015/12/22/08/09/entrepreneur-1103719_960_720.jpg"
-                data-color="violet"
-                alt="Third Image"
-              />
-              <div class="carousel-caption d-md-block">
-                <!-- <h5>Third Image</h5> -->
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="https://images.unsplash.com/photo-1507099985932-87a4520ed1d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
-                data-color="lightblue"
-                alt="First Image"
-              />
-              <div class="carousel-caption d-md-block">
-                <!-- <h5>First Image</h5> -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Controls -->
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+        <p id="hero-text" data-aos="fade-right">Believe || Become</p>
 
-      <!-- About Us -->
-
-      <div class="container">
-        <h1 class="my-3 text-center" id="about">
-          About Us
-        </h1>
-        <hr />
-        <p class="about-text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
-          impedit deleniti quo sit voluptas suscipit aliquid consequatur tempore
-          architecto nemo quod reiciendis voluptatum quam eveniet, nostrum
-          neque. Nulla quibusdam provident quae commodi, distinctio consectetur
-          dolorem soluta laborum explicabo temporibus nesciunt aperiam, autem
-          accusamus fugiat exercitationem optio quidem. Expedita esse, placeat,
-          voluptate veritatis veniam asperiores doloremque porro inventore sit
-          maiores repudiandae molestiae, est consequatur nisi officia nobis ipsa
-          dignissimos unde. Tenetur, perspiciatis voluptatibus? Illum odio
-          libero delectus ullam, impedit pariatur obcaecati et asperiores,
-          placeat sint recusandae illo inventore quis explicabo. Dicta alias
-          ducimus, tempore voluptatem ex enim? Iusto magnam nostrum fugit.
+        <p class="lead" style="margin: 0 auto">
+          <a class="btn btn-primary btn-lg" href="#about" role="button"
+            >Explore</a
+          >
         </p>
-        <div></div>
       </div>
+    </div>
 
-      <!-- Upcoming Events -->
+    <!-- Carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide mt-5 mb-3"
+      data-ride="carousel"
+    >
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> -->
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="container">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./e-cell_newlogo.jpg"
+              data-color="black"
+              alt="Second Image"
+            />
+            <div class="carousel-caption d-md-block">
+              <!-- <h5>Second Image</h5> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./slider_image1.jpg"
+              data-color="black"
+              alt="Third Image"
+            />
+            <div class="carousel-caption d-md-block">
+              <!-- <h5>Third Image</h5> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="https://cdn.pixabay.com/photo/2012/04/26/18/10/businessmen-42691_960_720.png"
+              data-color="firebrick"
+              alt="First Image"
+            />
+            <div class="carousel-caption d-md-block">
+              <!-- <h5>First Image</h5> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a> -->
+    </div>
 
-      <div class="container-fluid contenedor text-center">
-        <h1 class="text-center">Upcoming Events</h1>
+    <!-- About Us -->
+
+    <div class="container">
+      <h1 class="my-3 text-center" id="about" id="heading-text">About Us</h1>
+      <hr />
+      <p class="about-text" data-aos="slide-right" data-aos-delay="1ms">
+        The Entrepreneurship Cell, IIIT Dharwad (E-Cell) firmly believes that
+        emerging economies like India need the drive and innovation of young
+        entrepreneurs. E-Cell not only motivates the youth toward
+        entrepreneurship but also makes efforts to provide them with the
+        necessary resources to do so.
+      </p>
+    </div>
+
+    <!-- Upcoming Events -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <h1
+      class="text-center mt-5"
+      style="color: white"
+      data-aos="fade-down-right"
+      id="heading-text"
+    >
+      Upcoming Events
+    </h1>
+    <!-- <img src="./upcoming_2.png" alt=""> -->
+    <section class="hero-section">
+      <div>
+        <div class="card-grid" style="margin: 0 auto">
+          <a class="card" href="#aa">
+            <div
+              class="card__background"
+              style="background-image: url(./upcoming_1.png)"
+            ></div>
+            <div class="card__content">
+              <p class="card__category">27th August</p>
+              <h3 class="card__heading">Event 1</h3>
+            </div>
+          </a>
+          <a class="card" href="#aa">
+            <div
+              class="card__background"
+              style="background-image: url(./upcoming_2.png)"
+            ></div>
+            <div class="card__content">
+              <p class="card__category">4th Sept</p>
+              <h3 class="card__heading">Event 2</h3>
+            </div>
+          </a>
+          <a class="card" href="#aa">
+            <div
+              class="card__background"
+              style="background-image: url(./upcoming_3.png)"
+            ></div>
+            <div class="card__content">
+              <p class="card__category">18th Sept</p>
+              <h3 class="card__heading">Event 3</h3>
+            </div>
+          </a>
+          <a class="card" href="#aa">
+            <div
+              class="card__background"
+              style="background-image: url(./upcoming_4.png)"
+            ></div>
+            <div class="card__content">
+              <p class="card__category">1st Oct</p>
+              <h3 class="card__heading">Event 4</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events -->
+    <section
+      class="ftco-section ftco-portfolio bg-light;"
+      style="background-color: white"
+    >
+      <div class="container-fluid contenedor text-center" id="events">
+        <h1
+          class="text-center"
+          id="heading-text"
+          style="color: black"
+          data-aos="fade-down-right"
+        >
+          Events
+        </h1>
         <div class="container text-center">
-          <div class="row" data-aos="slide-up" data-aos-delay="10s">
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto">
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto mb-3"
+              data-aos="slide-right"
+              data-aos-delay="3ms"
+              style="margin: 0 auto"
+            >
               <div class="ver_mas text-center">
                 <span id="click" class="lnr lnr-eye">Explore Now</span>
               </div>
@@ -214,12 +362,14 @@
                   quaerat.
                 </h4>
               </article>
-              <img
-                src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg"
-                alt=""
-              />
+              <img src="./event1.png" alt="" />
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto">
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto mb-3"
+              data-aos="slide-up"
+              data-aos-delay="4ms"
+              style="margin: 0 auto"
+            >
               <div class="ver_mas text-center">
                 <span id="click" class="lnr lnr-eye">Explore Now</span>
               </div>
@@ -230,12 +380,14 @@
                   Magnam, in.
                 </h4>
               </article>
-              <img
-                src="https://pbs.twimg.com/profile_images/781518570018648065/HcvZhTVn_400x400.jpg"
-                alt=""
-              />
+              <img src="./event3.png" alt="" />
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto">
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto mb-3"
+              data-aos="slide-left"
+              data-aos-delay="5ms"
+              style="margin: 0 auto"
+            >
               <div class="ver_mas text-center">
                 <span id="click" class="lnr lnr-eye">Explore Now</span>
               </div>
@@ -246,17 +398,16 @@
                   Dignissimos, repellendus.
                 </h4>
               </article>
-              <img
-                src="https://ericrenardphotography.com/wp-content/uploads/Yosemite_Valley_2861-1-400x400.jpg"
-                alt=""
-              />
+              <img src="./upcoming_2.png" alt="" />
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Gallery -->
-      <h1 class="mt-2 text-center" style="color: burlywood;" id="e-cell">
+    <!-- Gallery -->
+    <div id="gallery">
+      <h1 class="mt-2 text-center" id="heading-text" data-aos="fade-down-right">
         Gallery
       </h1>
       <div id="carousel">
@@ -295,359 +446,315 @@
           />
         </figure>
       </div>
-      <span style="float: left;" class="ss-icon" onclick="galleryspin('-')"
+
+      <span style="float: left" class="ss-icon" onclick="galleryspin('-')"
         >&lt;</span
       >
-      <span style="float: right;" class="ss-icon" onclick="galleryspin('')"
+      <span style="float: right" class="ss-icon" onclick="galleryspin('')"
         >&gt;</span
       >
+    </div>
 
-      <!-- Testimonials -->
-      <div class="testimonials">
-        <ul>
-          <li class="current_slide">
-            <img src="https://i.imgur.com/kguCyK9.jpg?1" id="test_img" />
-            <blockquote>
-              <p class="quote">
-                Most of my photos are grounded in people, I look for the
-                unguarded moment, the essential soul peeking out, experience
-                etched on a person's face.
-              </p>
-            </blockquote>
-            <footer>
-              <span class="author">Steve McCurry</span>
-              <p class="info">
-                American editorial photographer best known for his photograph
-                "Afghan Girl".
-              </p>
-            </footer>
-          </li>
-          <li>
-            <img src="https://i.imgur.com/kguCyK9.jpg?1" />
-            <blockquote>
-              <p class="quote">
-                Most of my photos are grounded in people, I look for the
-                unguarded moment, the essential soul peeking out, experience
-                etched on a person's face.
-              </p>
-            </blockquote>
-            <footer>
-              <span class="author">Steve McCurry #2</span>
-              <p class="info">
-                American editorial photographer best known for his photograph
-                "Afghan Girl".
-              </p>
-            </footer>
-          </li>
-          <li>
-            <img src="https://i.imgur.com/kguCyK9.jpg?1" />
-            <blockquote>
-              <p class="quote">
-                Most of my photos are grounded in people, I look for the
-                unguarded moment, the essential soul peeking out, experience
-                etched on a person's face.
-              </p>
-            </blockquote>
-            <footer>
-              <span class="author">Steve McCurry #3</span>
-              <p class="info">
-                American editorial photographer best known for his photograph
-                "Afghan Girl".
-              </p>
-            </footer>
-          </li>
-          <li>
-            <img src="https://i.imgur.com/kguCyK9.jpg?1" />
-            <blockquote>
-              <p class="quote">
-                Most of my photos are grounded in people, I look for the
-                unguarded moment, the essential soul peeking out, experience
-                etched on a person's face.
-              </p>
-            </blockquote>
-            <footer>
-              <span class="author">Steve McCurry #4</span>
-              <p class="info">
-                American editorial photographer best known for his photograph
-                "Afghan Girl".
-              </p>
-            </footer>
-          </li>
-          <li>
-            <img src="https://i.imgur.com/kguCyK9.jpg?1" />
-            <blockquote>
-              <p class="quote">
-                Most of my photos are grounded in people, I look for the
-                unguarded moment, the essential soul peeking out, experience
-                etched on a person's face.
-              </p>
-            </blockquote>
-            <footer>
-              <span class="author">Steve McCurry #5</span>
-              <p class="info">
-                American editorial photographer best known for his photograph
-                "Afghan Girl".
-              </p>
-            </footer>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Our Team -->
-
-      <div id="container">
-        <h1>Our Team</h1>
-        <hr />
-        <div class="team_slider">
-          <div
-            id="carouselExampleControls"
-            class="carousel slide my-0"
-            data-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active" id="view_3">
-                <div class="card">
-                  <div class="front">
-                    <img
-                      src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=220&h=340"
-                    />
-                    <span class="name">Peter Panda</span>
-                    <hr />
-                    <span class="job">Backend Web Developer</span>
-                  </div>
-                  <div class="back">
-                    <span>Skills:</span>
-                    <p>PHP, Ruby, Python, Django</p>
-                    <span>Social media </span>
-                    <div class="icons mt-3">
-                      <i class="icon fa fa-github fa-lg" aria-hidden="true"></i>
-                      <i
-                        class="icon fa fa-linkedin fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-facebook fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-twitter fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-instagram fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="front">
-                    <img
-                      src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=220&h=340"
-                    />
-                    <span class="name">Tony Stark</span>
-                    <hr />
-                    <span class="job">Front End Developer</span>
-                  </div>
-                  <div class="back">
-                    <span>Skills:</span>
-                    <p>PHP, Ruby, Python, Django</p>
-                    <span>Social media </span>
-                    <div class="icons mt-3">
-                      <i class="icon fa fa-github fa-lg" aria-hidden="true"></i>
-                      <i
-                        class="icon fa fa-linkedin fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-facebook fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-twitter fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-instagram fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="front">
-                    <img
-                      src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=220&h=340"
-                    />
-                    <span class="name">Steve Rogers</span>
-                    <hr />
-                    <span class="job">Orientator</span>
-                  </div>
-                  <div class="back">
-                    <span>Skills:</span>
-                    <p>PHP, Ruby, Python, Django</p>
-                    <span>Social media </span>
-                    <div class="icons mt-3">
-                      <i class="icon fa fa-github fa-lg" aria-hidden="true"></i>
-                      <i
-                        class="icon fa fa-linkedin fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-facebook fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-twitter fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-instagram fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item" id="view_3">
-                <div class="card">
-                  <div class="front">
-                    <img
-                      src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=220&h=340"
-                    />
-                    <span class="name">Julien King</span>
-                    <hr />
-                    <span class="job"> IOS developer </span>
-                  </div>
-                  <div class="back">
-                    <span>Skills:</span>
-                    <p>GCD, Swift, Git</p>
-                    <span>Social media </span>
-                    <div class="icons mt-3">
-                      <i class="icon fa fa-github fa-lg" aria-hidden="true"></i>
-                      <i
-                        class="icon fa fa-linkedin fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-facebook fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-twitter fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-instagram fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="front">
-                    <img
-                      src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=220&h=340"
-                    />
-                    <span class="name">Peter Parker</span>
-                    <hr />
-                    <span class="job"> Event Manager </span>
-                  </div>
-                  <div class="back">
-                    <span>Skills:</span>
-                    <p>PHP, Ruby, Python, Django</p>
-                    <span>Social media </span>
-                    <div class="icons mt-3">
-                      <i class="icon fa fa-github fa-lg" aria-hidden="true"></i>
-                      <i
-                        class="icon fa fa-linkedin fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-facebook fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-twitter fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-instagram fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="front">
-                    <img
-                      src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=220&h=340"
-                    />
-                    <span class="name">Bruce Banner</span>
-                    <hr />
-                    <span class="job">Socail Media Handler</span>
-                  </div>
-                  <div class="back">
-                    <span>Skills:</span>
-                    <p>PHP, Ruby, Python, Django</p>
-                    <span>Social media </span>
-                    <div class="icons mt-3">
-                      <i class="icon fa fa-github fa-lg" aria-hidden="true"></i>
-                      <i
-                        class="icon fa fa-linkedin fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-facebook fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-twitter fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="icon fa fa-instagram fa-lg"
-                        aria-hidden="true"
-                      ></i>
-                    </div>
-                  </div>
-                </div>
+    <!-- Testimonials -->
+    <section class="container2" id="review">
+      <h1 class="text-center" id="heading-text" data-aos="fade-down-right">
+        Testimonials
+      </h1>
+      <hr />
+      <div class="gtco-testimonials" style="background-color: white">
+        <!-- <h2>Testimonials Carousel - Cards Comments</h2> -->
+        <div class="owl-carousel owl-carousel1 owl-theme">
+          <div>
+            <div class="card1 text-center">
+              <img class="card-img-top" src="./people/Tony.jpg" alt="" />
+              <div class="card-body">
+                <h5>
+                  Iron Man<br />
+                  <span> CEO </span>
+                </h5>
+                <p class="card-text">
+                  “ Success is not final; failure is not fatal: it is the
+                  courage to continue that counts. ”
+                </p>
               </div>
             </div>
-            <a
-              class="carousel-control-prev"
-              href="#carouselExampleControls"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselExampleControls"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
-            </a>
+          </div>
+          <div>
+            <div class="card1 text-center">
+              <img class="card-img-top" src="./people/Steve.jpg" alt="" />
+              <div class="card-body">
+                <h5>
+                  Captain America<br />
+                  <span> Team Leader </span>
+                </h5>
+                <p class="card-text">
+                  “ Every problem is a gift—without problems we would not grow.
+                  ”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card1 text-center">
+              <img class="card-img-top" src="./people/Natasha.jpg" alt="" />
+              <div class="card-body">
+                <h5>
+                  Natasha<br />
+                  <span> Entreprenuer </span>
+                </h5>
+                <p class="card-text">
+                  “ Success usually comes to those who are too busy to be
+                  looking for it. ”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card1 text-center">
+              <img class="card-img-top" src="./people/Clint.jpeg" alt="" />
+              <div class="card-body">
+                <h5>
+                  Clint<br />
+                  <span> Buisnessman </span>
+                </h5>
+                <p class="card-text">
+                  “ If you really look closely, most overnight successes took a
+                  long time. ”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card1 text-center">
+              <img class="card-img-top" src="./people/Bruce.jpg" alt="" />
+              <div class="card-body">
+                <h5>
+                  Bruce<br />
+                  <span> Data Analyst </span>
+                </h5>
+                <p class="card-text">
+                  “ The way to get started is to quit talking and begin doing. ”
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <h1>IMAGINE</h1>
     </section>
+
+    <!-- Our Team -->
+
+    <div class="container1" id="team">
+      <h1 id="heading-text" data-aos="fade-down-right">Our Team</h1>
+      <hr />
+      <!-- TESTIMONIALS -->
+      <section class="testimonials">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div id="customers-testimonials" class="owl-carousel">
+                <!--TESTIMONIAL 1 -->
+                <div class="item">
+                  <div class="shadow-effect">
+                    <img
+                      class="img-responsive"
+                      src="./people/Tony.jpg"
+                      alt=""
+                    />
+                    <div class="item-details">
+                      <h3 class="text-center">Tony Stark</h3>
+                      <h5 class="text-center" id="profession">Web Developer</h5>
+                      <!-- <div class="row" style="margin: 0 auto;">
+                      <i class="col-4 fa fa-facebook-official" aria-hidden="true"></i>
+                      <i class="col-4 fa fa-facebook-official" aria-hidden="true"></i>
+                      <i class="col-4 fa fa-facebook-official" aria-hidden="true"></i>
+                    </div> -->
+                    </div>
+                  </div>
+                  <div
+                    class="team-footer row"
+                    style="margin: 0 auto"
+                    style="background-color: white"
+                  >
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <!--END OF TESTIMONIAL 1 -->
+                <!--TESTIMONIAL 2 -->
+                <div class="item">
+                  <div class="shadow-effect">
+                    <img
+                      class="img-responsive"
+                      src="./people/Steve.jpg"
+                      alt=""
+                    />
+                    <div class="item-details">
+                      <h3 class="text-center">Steve Rogers</h3>
+                      <h5 class="text-center" id="profession">
+                        Social Media Management
+                      </h5>
+                    </div>
+                  </div>
+                  <div
+                    class="team-footer row"
+                    style="margin: 0 auto"
+                    style="background-color: white"
+                  >
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <!--END OF TESTIMONIAL 2 -->
+                <!--TESTIMONIAL 3 -->
+                <div class="item">
+                  <div class="shadow-effect">
+                    <img
+                      class="img-responsive"
+                      src="./people/Bruce.jpg"
+                      alt=""
+                    />
+                    <div class="item-details">
+                      <h3 class="text-center">Bruce Banner</h3>
+                      <h5 class="text-center" id="profession">Event Manager</h5>
+                    </div>
+                  </div>
+                  <div
+                    class="team-footer row"
+                    style="margin: 0 auto"
+                    style="background-color: white"
+                  >
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <!--END OF TESTIMONIAL 3 -->
+                <!--TESTIMONIAL 4 -->
+                <div class="item">
+                  <div class="shadow-effect">
+                    <img
+                      class="img-responsive"
+                      src="./people/Natasha.jpg"
+                      alt=""
+                    />
+                    <div class="item-details">
+                      <h3 class="text-center">Natasha Romanoff</h3>
+                      <h5 class="text-center" id="profession">
+                        Content Writer
+                      </h5>
+                    </div>
+                  </div>
+                  <div
+                    class="team-footer row"
+                    style="margin: 0 auto"
+                    style="background-color: white"
+                  >
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <!--END OF TESTIMONIAL 4 -->
+                <!--TESTIMONIAL 5 -->
+                <div class="item">
+                  <div class="shadow-effect">
+                    <img
+                      class="img-responsive"
+                      src="./people/Clint.jpeg"
+                      alt=""
+                    />
+                    <div class="item-details">
+                      <h3 class="text-center">Clint Barton</h3>
+                      <h5 class="text-center" id="profession">Organizer</h5>
+                    </div>
+                  </div>
+                  <div
+                    class="team-footer row"
+                    style="margin: 0 auto"
+                    style="background-color: white"
+                  >
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i
+                    ></a>
+                    <a href="#" class="col-3"
+                      ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <!--END OF TESTIMONIAL 5 -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF TESTIMONIALS -->
+    </div>
+
+    <!-- Quote -->
+    <h1
+      class="mt-3 text-center"
+      style="color: white; font-family: 'Orbitron', sans-serif"
+      data-aos="fade-up-right"
+    >
+      "Nothing is Impossible"
+    </h1>
+
+    <!--Back to top-->
+    <a
+      id="back-to-top"
+      href="#header"
+      class="btn btn-primary btn-lg back-to-top"
+      role="button"
+      data-toggle="tooltip"
+      data-placement="left"
+    >
+      <span class="fa fa-arrow-up"></span>
+    </a>
 
     <!-- Footer -->
     <div class="footer">
@@ -655,26 +762,51 @@
         <div class="row">
           <div class="col-lg-4 col-sm-4 col-xs-12">
             <div class="single_footer">
-              <h4>Services</h4>
+              <h4>Quick Links</h4>
               <ul>
-                <li><a href="#">Lorem Ipsum</a></li>
-                <li><a href="#">Simply dummy text</a></li>
-                <li><a href="#">The printing and typesetting </a></li>
-                <li><a href="#">Standard dummy text</a></li>
-                <li><a href="#">Type specimen book</a></li>
+                <li><a href="#">E-Summit</a></li>
+                <li><a href="#">Webinar 2020</a></li>
+                <li><a href="#">E-Collab</a></li>
+                <!-- <li><a href="#">Standard dummy text</a></li>
+              <li><a href="#">Type specimen book</a></li> -->
               </ul>
             </div>
           </div>
           <!--- END COL -->
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="single_footer single_footer_address">
-              <h4>Page Link</h4>
+              <h4>Follow Us</h4>
               <ul>
-                <li><a href="#">Lorem Ipsum</a></li>
-                <li><a href="#">Simply dummy text</a></li>
-                <li><a href="#">The printing and typesetting </a></li>
-                <li><a href="#">Standard dummy text</a></li>
-                <li><a href="#">Type specimen book</a></li>
+                <li>
+                  <a href="#"
+                    >Facebook
+                    <i class="fa fa-facebook fa-lg" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >Instagram
+                    <i class="fa fa-instagram fa-lg" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >Twitter
+                    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >Linkedlin
+                    <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >YouTube
+                    <i class="fa fa-youtube fa-lg" aria-hidden="true"></i
+                  ></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -695,34 +827,29 @@
                 </form>
               </div>
             </div>
-            <div class="social_profile">
-              <ul>
-                <li>
-                  <a href="#"
-                    ><i class="fa fa-facebook fa-lg" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa fa-instagram fa-lg" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa fa-twitter fa-lg" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
+            <!-- <div class="social_profile">
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div> -->
           </div>
           <!--- END COL -->
         </div>
-        <h1 class="mt-3 mb-0" style="text-align: center;">
+        <h1
+          class="mt-3 mb-0"
+          style="text-align: center; font-family: Acme, sans-serif"
+        >
           The Entrepreneurship Cell
         </h1>
         <!--- END ROW -->
@@ -739,13 +866,9 @@
       <!--- END CONTAINER -->
     </div>
 
-    <!-- !--Optional JavaScript--  -->
-    <!-- < !--jQuery first, then Popper.js, then Bootstrap JS-- > -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
+    <!-- End -->
+
+    <!-- Slider JS -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -757,24 +880,72 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- Smooth Scroll -->
-
-    <!-- Jumbotron -->
+    <!-- Nav & Image -->
     <script>
-      $(() => {
-        $('a[href*="#"]:not([href="#"])').click((e) => {
-          const target = $(e.target.hash);
-
-          if (target.length) {
-            $("html, body").animate(
-              {
-                scrollTop: target.offset().top,
-              },
-              1000
+      $(document).ready(function () {
+        $(window).on("scroll", function () {
+          if ($(window).scrollTop() > 50) {
+            $("#header").addClass("active-header");
+            $(".menu-link").addClass("active-menu-links");
+            $("#header-img").attr(
+              "src",
+              "https://i.ibb.co/0jM3ZvH/reverse-black.png"
             );
-
-            return false;
+          } else {
+            //remove the background property so it comes transparent again (defined in your css)
+            $("#header").removeClass("active-header");
+            $(".menu-link").removeClass("active-menu-links");
+            $("#header-img").attr(
+              "src",
+              "https://i.ibb.co/LxGJ5gF/reverse-white.png"
+            );
           }
+        });
+
+        // Responsive menu
+        $("#responsive-nav-bar").hide();
+
+        $("#image-button-black").click(function () {
+          $("#responsive-nav-bar").slideToggle();
+        });
+
+        $(
+          "#responsive-home-item , #responsive-features-item , #responsive-products-item , #responsive-media-item , #responsive-pricing-item"
+        ).click(function () {
+          $("#responsive-nav-bar").slideToggle(200);
+        });
+      });
+    </script>
+
+    <!-- Our Team -->
+    <script>
+      jQuery(document).ready(function ($) {
+        "use strict";
+        $("#customers-testimonials").owlCarousel({
+          loop: false,
+          center: true,
+          items: 3,
+          margin: 30,
+          autoplay: true,
+          dots: true,
+          nav: true,
+          autoplayTimeout: 8500,
+          smartSpeed: 450,
+          navText: [
+            '<i class="fa fa-angle-left"></i>',
+            '<i class="fa fa-angle-right"></i>',
+          ],
+          responsive: {
+            0: {
+              items: 1,
+            },
+            768: {
+              items: 2,
+            },
+            1170: {
+              items: 3,
+            },
+          },
         });
       });
     </script>
@@ -835,88 +1006,64 @@
 
     <!-- testimonials -->
     <script>
-      $(function () {
-        var cdSlider = $(".testimonials"),
-          wrapper = cdSlider.children("ul"),
-          card = wrapper.find("li"),
-          animationTime = 600; // Animation duration on IE9
+      (function () {
+        "use strict";
 
-        initSlider();
-
-        function initSlider() {
-          var sliderWidth = cdSlider.outerWidth(),
-            cardWidth = card.eq(0).outerWidth(),
-            marginLeftFirstCard = sliderWidth / 2 - cardWidth / 2, // Center first card
-            marginLeft = marginLeftFirstCard - (cardWidth * 1) / 7;
-
-          card.css("margin-left", marginLeft + "px");
-          card.eq(0).css("margin-left", marginLeftFirstCard + "px");
-
-          var wrapperWidth =
-            card.length * cardWidth +
-            (card.length - 1) * marginLeft +
-            marginLeftFirstCard;
-
-          if (card.length > 1) {
-            wrapper.css("width", wrapperWidth + "px");
-          }
-
-          var cardCurrentIndex = cdSlider.find("li.current_slide").index(),
-            translate = cardCurrentIndex * (cardWidth + marginLeft) + "px";
-
-          move(translate);
-        }
-
-        card.on("click", function () {
-          var cardWidth = card.eq(0).outerWidth(),
-            sliderWidth = cdSlider.outerWidth(),
-            marginLeft = sliderWidth / 2 - cardWidth / 2 - (cardWidth * 1) / 7,
-            translate = $(this).index() * (cardWidth + marginLeft) + "px";
-
-          move(translate);
-
-          $(this)
-            .addClass("current_slide")
-            .siblings()
-            .removeClass("current_slide");
-        });
-
-        function GetIEVersion() {
-          var sAgent = window.navigator.userAgent;
-          var Idx = sAgent.indexOf("MSIE");
-
-          if (Idx > 0) {
-            var version = parseInt(
-              sAgent.substring(Idx + 5, sAgent.indexOf(".", Idx))
-            );
-            if (version == 9) {
-              $("html").addClass("ie9");
-            }
-          }
-        }
-
-        GetIEVersion();
-
-        function move(translate) {
-          // IE 9
-          if ($(".ie9").length > 0) {
-            wrapper.animate(
-              {
-                "margin-left": "-" + translate,
+        var carousels = function () {
+          $(".owl-carousel1").owlCarousel({
+            loop: true,
+            center: true,
+            margin: 0,
+            responsiveClass: true,
+            nav: false,
+            responsive: {
+              0: {
+                items: 1,
+                nav: false,
               },
-              animationTime
-            );
-          } else {
-            wrapper.css({
-              "-webkit-transform": "translateX(-" + translate + ")",
-              transform: "translateX(-" + translate + ")",
-            });
-          }
-        }
+              680: {
+                items: 2,
+                nav: false,
+                loop: false,
+              },
+              1000: {
+                items: 3,
+                nav: true,
+              },
+            },
+          });
+        };
 
-        $(window).on("resize", function () {
-          initSlider();
+        (function ($) {
+          carousels();
+        })(jQuery);
+      })();
+    </script>
+
+    <script>
+      //back to top js
+
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 50) {
+            $("#back-to-top").fadeIn();
+          } else {
+            $("#back-to-top").fadeOut();
+          }
         });
+        // scroll body to 0px on click
+        $("#back-to-top").click(function () {
+          $("#back-to-top").tooltip("hide");
+          $("body,html").animate(
+            {
+              scrollTop: 0,
+            },
+            800
+          );
+          return false;
+        });
+
+        $("#back-to-top").tooltip("show");
       });
     </script>
 
@@ -935,14 +1082,17 @@
         throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
         // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-        offset: 120, // offset (in px) from the original trigger point
-        delay: 0, // values from 0 to 3000, with step 50ms
-        duration: 2000, // values from 0 to 3000, with step 50ms
+        offset: 200, // offset (in px) from the original trigger point
+        delay: 50, // values from 0 to 3000, with step 50ms
+        duration: 1000, // values from 0 to 3000, with step 50ms
         easing: "ease", // default easing for AOS animations
-        once: false, // whether animation should happen only once - while scrolling down
-        mirror: false, // whether elements should animate out while scrolling past them
+        once: true, // whether animation should happen only once - while scrolling down
+        mirror: true, // whether elements should animate out while scrolling past them
         anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
       });
     </script>
   </body>
 </html>
+
+<!-- <div data-aos="zoom-in-down" class="box" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+  data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"> -->
